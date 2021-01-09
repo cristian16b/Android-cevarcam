@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_productos">
+
+    <fragment
+        android:id="@+id/nav_productos"
+        android:name="com.example.app_cevarcam.activity.productos.ProductosFragment"
+        android:label="@string/menu_pronosticos"
+        tools:layout="@layout/fragment_productos" />
+
+    <fragment
+        android:id="@+id/nav_fases_lunares"
+        android:name="com.example.app_cevarcam.activity.fasesLunares.FasesLunaresFragment"
+        android:label="@string/menu_fases_lunares"
+        tools:layout="@layout/fragment_fases_lunares" />
+
+    <fragment
+        android:id="@+id/nav_links_interes"
+        android:name="com.example.app_cevarcam.activity.linksInteres.LinksInteresFragment"
+        android:label="@string/menu_liks_interes"
+        tools:layout="@layout/fragment_links_interes" />
+
+    <fragment
+        android:id="@+id/nav_acerca_de"
+        android:name="com.example.app_cevarcam.activity.acercaDe.AcercaDeFragment"
+        android:label="@string/menu_acerca_de"
+        tools:layout="@layout/fragment_acerca_de" />
+
+    <fragment
+        android:id="@+id/nav_salir"
+        android:name="com.example.app_cevarcam.activity.salir.SalirFragment"
+        android:label="@string/menu_salir"
+        tools:layout="@layout/fragment_salir" />
+</navigation>

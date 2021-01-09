@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Mensajes de problemas de conexión con el back-end-->
+    <string name="msg_error_conexion">Ocurrio un error al realizar la consulta al servidor.</string>
+
+    <!--Mensajes de error e el login-->
+    <string name="msg_usuario_y_pwd_no_puede_no_vacio">El usuario y/o password no puede quedar vacio.</string>
+    <string name="msg_errores_en_form_login">Hay errores en los datos ingresados.</string>
+    <string name="msg_errores_login_invalido">Usuario o contraseña incorrectos.</string>
+    <string name="msg_errores_login_default">Ocurrio un error desde la API.</string>
+
+    <!--Mensajes de error e las simulaciones-->
+    <string name="msg_errores_simulacion_falta_producto">El producto seleccionado no se encuentra disponible.</string>
+    <string name="msg_errores_simulacion_limite">No se disponen de más imagenes para mostrar.</string>
+    <string name="msg_errores_simulacion_velocidad_seleccionada">Debe seleccionar una velocidad para poder reproducir.</string>
+</resources>

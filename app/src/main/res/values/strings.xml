@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">AppCevarcam</string>
+
+    <string name="app_default_text">...</string>
+
+    <!--apis-->
+    <string name="api_login">http://fich.unl.edu.ar/cevarcam-mph/admin/api/login</string>
+    <string name="api_pronostico_temperatura">http://fich.unl.edu.ar/cevarcam-mph/uploads/imagenes/productos/pr/temperatura/</string>
+    <string name="api_pronostico_precipitacion">http://fich.unl.edu.ar/cevarcam-mph/uploads/imagenes/productos/pr/precipitacion/</string>
+    <string name="api_pronostico_viento">http://fich.unl.edu.ar/cevarcam-mph/uploads/imagenes/productos/pr/vientos/</string>
+    <string name="api_fases_lunares">http://fich.unl.edu.ar/cevarcam-mph/api-rest/fases-lunares/</string>
+
+    <!--Preferencias-->
+    <string name="title_simulacion">PRONÓSTICOS</string>
+
+
+    <!-- Productos -->
+    <string name="prod_temperatura">Temperatura</string>
+    <string name="prod_temperatura_desc">Pronóstico de temperatura a 7 días</string>
+
+    <string name="prod_precipitacion">Precipitación</string>
+    <string name="prod_precipitacion_desc">Pronóstico de precipitación a 7 días</string>
+
+    <string name="prod_viento">Viento</string>
+    <string name="prod_viento_desc">Pronóstico de viento a 7 días</string>
+
+    <string name="prod_evapotranspiracion">Evapotranspiración</string>
+    <string name="prod_evapotranspiracion_desc">Perspectiva estacional</string>
+
+    <string name="prod_humedad_suelo">Humedad de suelo</string>
+    <string name="prod_humedad_suelo_desc">Perspectiva estacional</string>
+
+    <!--Fragment login-->
+    <string name="f_login_usuario_hint">Ingrese nombre de usuario</string>
+    <string name="f_login_pwd_hint">Ingrese su contraseña</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_pronosticos">PRODUCTOS</string>
+    <string name="menu_fases_lunares">FASES LUNARES</string>
+    <string name="menu_ajustes">AJUSTES</string>
+    <string name="menu_liks_interes">LINKS DE INTERÉS</string>
+    <string name="menu_acerca_de">ACERCA DE</string>
+    <string name="menu_salir">SALIR</string>
+
+    <!--Fragment estado-->
+
+    <!--<string name="f_producto_item_disponibilidad_app_si">El producto esta disponible para ser accedido desde la app.</string>-->
+    <!--<string name="f_producto_item_disponibilidad_app_no">Actualmente el producto no se encuentra disponible para dispositivos móviles.</string>-->
+
+    <string name="listado_productos_pronosticos">El siguiente es el listado de pronósticos habilitados para su consulta</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Etiquetas escala Precipitacion-->
+
+    <!--Etiquetas escala Temperatura-->
+
+    <!--Etiquetas para el fragment de simulacion de productos -->
+    <string name="btn_stop">Detener</string>
+    <string name="btn_anterior">Anterior</string>
+    <string name="btn_play">Play</string>
+    <string name="btn_pause">Pausar</string>
+    <string name="btn_siguiente">Siguiente</string>
+    <string name="txt_velocidad">Velocidad</string>
+    <string name="txt_velocidad_lento">Lento</string>
+    <string name="txt_velocidad_medio">Normal</string>
+    <string name="txt_velocidad_rapido">Rapido</string>
+    <string name="txt_fecha_hora">Fecha - Hora</string>
+    <string name="txt_ultima_actualizacion">Fecha de la ultima actualizaciòn</string>
+    <string name="txt_fecha_hora_ultima">Fecha : Hora</string>
+
+    <!--Etiquetas para el acerca de -->
+    <string name="acerca_de_titulo">Acerca de</string>
+    <string name="acerca_de_texto">
+        La aplicación AppCevarcam es un desarrollo del Centro de Estudios de Variabilidad y Cambio Climático (CEVARCAM) , de la Facultad de Ingeniería y Ciencias Hídricas (FICH) de la Universidad Nacional del Litoral (UNL).
+    </string>
+    <string name="acerca_de_aclaracion">
+        CEVARCAM genera estos pronósticos con fines de investigación y no se responsabiliza por el uso que las Instituciones y/o las personas físicas puedan hacer con el uso de esta información.
+    </string>
+</resources>

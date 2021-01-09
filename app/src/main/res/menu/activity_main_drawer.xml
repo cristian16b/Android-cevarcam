@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_productos"
+            android:title="@string/menu_pronosticos" />
+        <item
+            android:id="@+id/nav_ajustes"
+            android:title="@string/menu_ajustes" />
+        <item
+            android:id="@+id/nav_fases_lunares"
+            android:title="@string/menu_fases_lunares" />
+        <item
+            android:id="@+id/nav_links_interes"
+            android:title="@string/menu_liks_interes" />
+        <item
+            android:id="@+id/nav_acerca_de"
+            android:title="@string/menu_acerca_de" />
+        <item
+            android:id="@+id/nav_salir"
+            android:title="@string/menu_salir" />
+    </group>
+</menu>

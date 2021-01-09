@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.productos.ListadoProductosFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_lista_pronosticos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/listado_productos_pronosticos"
+            android:justificationMode="inter_word"
+            android:textAlignment="textStart"
+            android:textSize="@dimen/txts_default" />
+
+
+        <ListView
+            android:id="@+id/list_pronosticos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".activity.LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+
+        android:fitsSystemWindows="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:paddingLeft="60dp"
+                android:paddingRight="60dp"
+                android:layout_marginTop="40dp"
+                android:alpha=".8"
+                android:src="@drawable/logo_cevarcam" />
+
+            <EditText
+                android:id="@+id/et_usuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:layout_below="@id/logo"
+                android:height="24dp"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:hint="@string/f_login_usuario_hint"
+                android:text="esangoi"
+                android:textSize="@dimen/txts_default" />
+
+
+            <EditText
+                android:id="@+id/et_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_usuario"
+                android:layout_marginTop="20dp"
+                android:height="24dp"
+                android:hint="@string/f_login_pwd_hint"
+                android:inputType="textPassword"
+                android:padding="12dp"
+                android:text="Zx+jZmv4AupnG$4w"
+                android:textSize="@dimen/txts_default"  />
+
+            <Button
+                android:id="@+id/btn_loguear"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/et_pwd"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="bottom"
+                android:layout_marginVertical="35dp"
+                android:onClick="loguearUsuario"
+                android:text="Ingresar"
+                app:fabSize="normal"
+                app:srcCompat="@drawable/ic_baseline_forward_48px_white" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
